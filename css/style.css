@@ -1,0 +1,45 @@
+.masthead {
+  height: 100vh;
+  width: 100vw;
+  text-align: center; }
+  .masthead nav.container {
+    text-align: center; }
+  .masthead #header_image {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("http://cyprus4me.ru/templates/skin/maxone/images/img/img42.jpg");
+    background-size: cover; }
+    .masthead #header_image h1 {
+      position: relative;
+      color: white;
+      display: inline-block;
+      top: 30vh; }
+    .masthead #header_image .overlay {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white; }
+    .masthead #header_image p.description {
+      max-width: 600px;
+      margin: auto;
+      margin-top: 32vh;
+      color: white;
+      font-style: italic;
+      color: #ecf0f1; }
+    .masthead #header_image button {
+      margin-top: 5vh; }
+    .masthead #header_image .down_arrow {
+      margin-top: 25vh;
+      color: white; }
+
+.section {
+  height: 600px; }
+  .section h1 {
+    padding-top: 20px; }
+
+.section:nth-child(odd) {
+  background: #ecf0f1; }
+
+.centered-text {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
